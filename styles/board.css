@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 100vw;
+	height: 100vh;
+}
+
+#chessboard {
+	display: grid;
+	grid-template-columns: repeat(8, 100px);
+	border: 30px solid #C19A6B;
+
+}
+
+#chessboard .cell {
+	height: 100px;
+}
+
+.odd-row .cell:nth-of-type(even) {
+	background-color: #096918;
+}
+
+.even-row .cell:nth-of-type(odd) {
+	background-color: #096918;
+}
