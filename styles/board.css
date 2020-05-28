@@ -31,3 +31,13 @@ body {
 .even-row .cell:nth-of-type(odd) {
 	background-color: #6e4b20;
 }
+
+@media (max-width: 1367px) {
+	#chessboard {
+		grid-template-columns: repeat(8, 70px);
+	}
+
+	#chessboard .cell {
+		height: 65px;
+	}
+}
