@@ -22,6 +22,12 @@ body {
 
 #chessboard .cell {
 	height: 100px;
+	position: relative;
+}
+
+.cell img {
+	height: 100%;
+	width: 100%;
 }
 
 .odd-row .cell:nth-of-type(even) {
