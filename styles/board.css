@@ -30,8 +30,16 @@ body {
 	background-color: #6e4b20;
 }
 
+.odd-row .cell:nth-of-type(odd) {
+	background-color: #fff;
+}
+
 .even-row .cell:nth-of-type(odd) {
 	background-color: #6e4b20;
+}
+
+.even-row .cell:nth-of-type(even) {
+	background-color: #fff;
 }
 
 @media (max-width: 1367px) {
