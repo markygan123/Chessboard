@@ -18,12 +18,17 @@ body {
 	display: grid;
 	grid-template-columns: repeat(8, 100px);
 	border: 30px solid #C19A6B;
+	box-shadow: 
 
 }
 
 #chessboard .cell {
 	height: 100px;
 	position: relative;
+}
+
+#chessboard .cell:hover {
+	filter: opacity(45%); 
 }
 
 .odd-row .cell:nth-of-type(even) {
