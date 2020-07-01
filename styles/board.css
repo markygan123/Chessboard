@@ -28,7 +28,7 @@ body {
 }
 
 #chessboard .cell:hover {
-	filter: opacity(45%); 
+	filter: opacity(30%); 
 }
 
 .odd-row .cell:nth-of-type(even) {
