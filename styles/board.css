@@ -31,6 +31,10 @@ body {
 	filter: opacity(30%); 
 }
 
+#chessboard div:first-of-type {
+	border-top: 2px solid rgb(80, 45, 26);
+}
+
 .odd-row .cell:nth-of-type(even) {
 	background-color: #6e4b20;
 }
